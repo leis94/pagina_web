@@ -33,7 +33,7 @@ h2 {
 }
 
 .hero {
-    height: 300px;
+    height: 350px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@ h2 {
 }
 
 .hero-image {
-
+    object-fit: cover;
 }
 
 .portafolio {
@@ -92,7 +92,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 90px;
+    height: 120px;
 }
 
 .menu {
@@ -148,10 +148,15 @@ figure {
      vertical-align: middle;
 }
 
-.event-list {
+.footer-url {
+    text-decoration: none;
+    color: white;
+}
+
+/* .event-list {
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
 .event-list-title {
     margin-left: 20px;
@@ -165,15 +170,38 @@ figure {
     background: white;
 }
 
+
+
+.event-division {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.event2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+.event-description3 {
+    text-align: left;
+}
+
+
+
+
 .event-imageContainer1 {
     display: flex;
     justify-content: center;
 }
 
 .event-image1 {
-        width:200px;
-        height:200px;
-        border-radius:150px;
+        width:250px;
+        height:250px;
+        border-radius:300px;
     }
 
 .event-imageContainer2 {
@@ -210,17 +238,65 @@ figure {
     padding: 5px 20px;
     text-decoration: none;
     border-radius: 5px;
+    
+}
+
+.event-divisionmouba {
+    margin-top: 40px;
 }
 
 .contact {
-    background-color: black;
+    background-color: #056fff;
     color: white;
     height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
+
+.contact-details {
+    display:block;
+}
+
+.social {
+    display: flex;
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+    vertical-align: center;
+}
+
+.social-link.linkedin {
+    background-image: url('../imagenes/linkedin.svg');
+}
+
+.social-link.facebook {
+    background-image: url('../imagenes/facebook.svg');
+    
+}
+
+.social-link.instagram {
+    background-image: url('../imagenes/instagram.svg');
+    
+}
+
+.social-link.twitter {
+    background-image: url('../imagenes/twitter.svg');
+    
+}
+
+.social-link.github {
+    background-image: url('../imagenes/github.svg');
+    
+}
+
+
+
 
 
 .container {
