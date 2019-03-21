@@ -31,3 +31,57 @@ h2 {
     font-size: 25px;
     margin-bottom: 30px;
 }
+
+.hero {
+    height: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image {
+
+}
+
+.portafolio {
+    padding: 20px;
+}
+
+.project {
+    border: 5px solid #BD5B0D;
+    border-radius: 10px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-course,
+.project-date,
+.project-url {
+    margin: 10px 0;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
+.project-title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project-details {
+    width: 500px;
+}
+
+.project-imageContiner {
+    width: 350px;
+}
+
+.project-image {
+    width: 350px;
+}
