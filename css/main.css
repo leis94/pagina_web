@@ -43,8 +43,8 @@ header .header-image-container {
 }
 
 header .header-image-container img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
 
 
@@ -62,3 +62,56 @@ header .header-menu-container a {
 }
 
 /* End Header */
+
+/* Begin First Seccion Main */
+
+.first-main-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    background-color: #2B2C2C;
+    grid-template-columns: 1fr 1fr;
+}
+
+.first-name-container {
+    width: 100%;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+.first-name-container h2{
+    width: 374px;
+    color: white;
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.first-name-container h4{
+    width: 374px;
+    color: #CCCCCC;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+
+.hire-me-button {
+    border: 1px solid #FEB633;
+    border-radius: 5px;
+    background-color: #FEB633;
+    padding: 15px 65px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.first-image-container {
+    margin-left: -50px;
+}
+
+.first-image-container img{
+    width: 600px;
+    height: 600px;
+}
+
+/* End First Seccion Main */
