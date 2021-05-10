@@ -25,12 +25,12 @@ header {
 
 }
 
-header .header-container {
+ header .header-container {
     width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
-    margin-left: 150px;
+
 }
 
 header .header-image-container {
@@ -39,6 +39,7 @@ header .header-image-container {
     display: flex;
     justify-content: start;
     align-items: center;
+    margin-left: 150px;
 
 }
 
@@ -49,7 +50,6 @@ header .header-image-container img {
 
 
 header .header-menu-container {
-    width: 100%;
     height: auto;
     display: flex;
     justify-content: flex-start;
@@ -57,9 +57,10 @@ header .header-menu-container {
     margin-left: 150px;
 }
 
+
 header .header-menu-container a {
     margin-right: 50px;
-}
+} 
 
 /* End Header */
 
