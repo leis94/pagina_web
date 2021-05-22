@@ -325,5 +325,66 @@ header .header-menu-container a {
     width: 58px;
 }
 
-
 /* End Services Main */
+
+/* Begin Work Experience Seccion */
+
+.work-experiences-container {
+    width: 100%;
+    height: auto;
+    background-color: #2B2C2C;
+
+}
+
+.work-experiences-title {
+    padding: 120px 100px 0px 100px;
+    align-items: center;
+}
+
+.work-experiences-title h2{
+    margin: 0;
+    text-align: center;
+    color: #cccccc;
+    font-size: 45px;
+}
+
+.work-experiences-title hr {
+    margin: 25px 520px 35px 550px;
+}
+
+.work-experiences-title p {
+    text-align: center;
+    color: #9f9f9f;
+    font-size: 16px;
+
+}
+
+.work-experiences-content-flex{
+    display: flex;
+    margin: 90px 145px 0px 150px;
+}
+
+.flex-box {
+    border-style: solid ;
+    border-width: thin;
+    border-color: #454545;
+    padding: 75px 40px;
+    background-color: #303131 ;
+}
+
+.flex-box h4 {
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0;
+}
+
+.flex-box p {
+    margin: 0;
+    color: #9f9f9f;
+}
+
+.flex-box .paragraph {
+    padding-top: 20px;
+}
+
+/* End Work Experience Seccion Main */
