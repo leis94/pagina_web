@@ -388,3 +388,40 @@ header .header-menu-container a {
 }
 
 /* End Work Experience Seccion Main */
+
+/* Begin Footer Seccion Main */
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #2B2C2C;
+}
+
+.footer-icons-links {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+.iconos{
+    width: 40px;
+    height: 40px;
+}
+
+.footer-copyright {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #363737 ;
+}
+
+/* End Work Experience Seccion Main */
